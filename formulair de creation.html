@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creation d'un compte</title>
+    <link rel="icon" href="car.png">
+    <link href="formulair de creation.css" rel="stylesheet">
+    
+</head>
+<body>
+    <form action="/traitement-du-formulaire" method="post">
+        <!-- Champ de texte pour le nom -->
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <!-- Champ de texte pour l'e-mail -->
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Case à cocher pour les préférences -->
+        <label for="sex">Préférences :</label>
+        <input type="checkbox" id="sex" name="sex[]" value="Male" > Male
+        <input type="checkbox" name="sex[]" value="Femelle" > Femelle
+        <!-- Case pour mdp -->
+        <label for="mot de passe">mot de passe :</label>
+        <input  type="password" id="mdp" required>
+
+        <label for="confirmer le mot de passe">confirmer le mot de passe :</label>
+        <input  type="password" id="mdp" required>
+
+        <!-- date de naissance -->
+        <label for="start">Date de naissance :</label>
+        <input  type="date" id="start" name="trip-start"  value="1950-01-01" min="1950-01-01" max="2050-01-01">
+
+
+        <!-- Bouton de soumission -->
+        <button type="submit" id="Créer">Créer</button>
+
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+/* projet web */
+.titre1{
+    display:flex;
+    justify-content: center;
+    font-size : 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 200px;
+    
+   
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+    
+   
+}
+
+button {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    
+    font-size: 30px;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    border-radius: 20px; /* Utilisez une valeur spécifique, pas un pourcentage */
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    background-image: url('backg.jpg');
+    background-size: cover;
+  }
+  
+  h1{
+    display:flex;
+    flex-direction:row;
+    align-items:start;
+    justify-content: center;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer;
+}
+h1:hover{
+    background: linear-gradient(to right,#5271ff,#fff 50%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
